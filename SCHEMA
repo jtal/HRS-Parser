@@ -1,0 +1,62 @@
+
+# nomenclature
+
+The official HRS is the print edition. Every year only one volume is republished. For every other volume a companion "supplement" book is published with only the sections which have changed due to the last legislative "session".
+
+We record "volumes" only so that our data can be mapped to the official print edition easily and because capitol.hawaii.gov uses volume heavily in to partition HRS. Each volume is broken up into "chapters" that classify the statutes by subject although there is much overlap. Each chapter contains "sections". Each section lists "empowering legislation" which is most often an "act" identifed by act number and legislative session. The collection of acts for a given session are published as "session law".
+
+"Annotation" is data to be associated with a line/lines or entire section. It can include a user's notes meant to be private or shared with others. It could be a reference to the empower law.
+
+
+# schema
+
+session: { sortOrder:
+  name
+  volumes: { volumeNumber: 
+    url: "/hrscurrent/Vol09_Ch0431-0435E",
+    name: "Vol09_Ch0431-0435E",
+    end: "0435",
+    start: "0431"
+
+# or instead of session:
+volumes:
+  sessionName
+  volumeNumber 
+  url: "/hrscurrent/Vol09_Ch0431-0435E",
+  name: "Vol09_Ch0431-0435E",
+  end: "0435",
+  start: "0431"
+
+section:
+  sessionName*
+  year
+  name
+  title
+  volumeNumber
+  chapter
+  text: []
+
+annotation:
+  id
+  sectionName*
+  year*
+  lineNumber
+  type (note, source)
+  user ("jtal04@gmail.com")
+  visisbility (public, network, private)
+  value:
+    note
+    source:
+      raw: "L Sp 2008, c 13, pt of $2"
+      type: "act" (act, hrs, etc)
+      sessionName*
+      actNumber*
+
+act:
+  name
+  year
+  sessionName*
+  actNumber
+  text { lineNumber:
+
+

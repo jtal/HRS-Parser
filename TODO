@@ -1,0 +1,24 @@
+
+
+
+# revised law can have plural sections but originally it only handled compact sections
+perl bin/validate_citation.pl "[RL 1925, §1208-1]"
+perl bin/validate_citation.pl "[RL 1925, §§1208, 1209]"
+
+# wtf cant figure out what is going on with either of the above too... see revised_section rule
+
+
+you have edited Citation.pm and are trying to test repeal rule which is not working...
+next you should take it one piece at a time and run citations.pl to see if it is working
+
+# supp
+[Supp, §50A-1]
+
+X # no comma and
+[am L 1994, c 173, §2 and c 242, §2]
+
+X # should act's have letters at the end?
+yes
+
+# repealed has no [citation]
+

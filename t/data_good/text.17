@@ -1,0 +1,99 @@
+$VAR1 = {
+          'citations' => [
+                           {
+                             'type' => 'Penal Code',
+                             'section' => [
+                                            '2'
+                                          ],
+                             'year' => '1869',
+                             'act' => '88'
+                           },
+                           {
+                             'section' => '1005',
+                             'type' => 'Revised Law',
+                             'year' => '1925'
+                           },
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '1'
+                                                          ],
+                                             'act' => '224'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '1931'
+                           },
+                           {
+                             'section' => '1431',
+                             'type' => 'Revised Law',
+                             'year' => '1935'
+                           },
+                           {
+                             'section' => '2951',
+                             'type' => 'Revised Law',
+                             'year' => '1945'
+                           },
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '1'
+                                                          ],
+                                             'act' => '139'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '1945'
+                           },
+                           {
+                             'section' => '1',
+                             'type' => 'Revised Law',
+                             'act' => '53',
+                             'year' => '1955'
+                           },
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '19'
+                                                          ],
+                                             'act' => '1'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '1959'
+                           },
+                           {
+                             'chapter' => '330',
+                             'type' => 'Hawaii Revised Statues',
+                             'section' => '1'
+                           },
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '5'
+                                                          ],
+                                             'act' => '179'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '1986'
+                           },
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '1'
+                                                          ],
+                                             'act' => '2'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '2001'
+                           }
+                         ],
+          'original' => '[PC 1869, c 88, §2; RL 1925, §1005; am L 1931, c 224, pt of §1; RL 1935, §1431; RL 1945, §2951; am L 1945, c 139, §1(a); RL 1955, §53-1; am L Sp 1959 2d, c 1, §19; HRS §330-1; am L 1986, c 179, §5; am L 2001, c 2, §1]'
+        };

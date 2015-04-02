@@ -1,0 +1,14 @@
+$VAR1 = {
+          'citations' => [
+                           {
+                             'type' => 'Penal Code',
+                             'section' => [
+                                            '4',
+                                            '6'
+                                          ],
+                             'year' => '1869',
+                             'act' => '59'
+                           }
+                         ],
+          'original' => '[PC 1869, c 59 §4-6]'
+        };

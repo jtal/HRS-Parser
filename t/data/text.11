@@ -1,0 +1,23 @@
+$VAR1 = {
+          'citations' => [
+                           {
+                             'chunks' => [
+                                           {
+                                             'section' => [
+                                                            '12'
+                                                          ],
+                                             'act' => '250'
+                                           }
+                                         ],
+                             'type' => 'Session Law',
+                             'year' => '1945'
+                           },
+                           {
+                             'section' => [
+                                            '90',
+                                            '13'
+                                          ]
+                           }
+                         ],
+          'original' => '[L 1945, c 250, §12; RL 1955, §90-13]'
+        };

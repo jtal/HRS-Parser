@@ -1,0 +1,172 @@
+
+
+* FORMATTING
+- Testing done under format/ subdir, winner is HTML::FormatText
+- 80 characters max
+- In the case of Acts, will have to handle underline and strikethrough,
+or not convert and just extract HTML
+- [section] is followed by title in bold up until first period.
+
+
+* BLAME RULES
+- blame is per single, formatted line
+- even if only part of the line changed, the whole line belongs
+to the last act to edit that line
+
+* HRS Notation
+L_ _ _ _ = legislative year
+c = Act
+am = amended
+CC = Civil Code
+PC = Penal Code
+RL = Revised Laws of Hawaii (published 1905, 1915, 1925, 1935*, 1945, and 1955)
+HRS = Hawaii Revised Statutes, (published 1968,1976,1985,and 1993)
+
+
+
+* HRS Source examples
+PC 1869, c 59 $4-6 - Compiled in Penal Code of 1869, act 59, sections 4 to 6
+am L 1905, c 42, $1 - Amended Session Laws of Hawaii (SLH) 1905, act 42, section 1
+RL 1925, $915 - Compiled Revised Laws of Hawaii (RLH) 1925, section 912
+HRS $321-11 - Compiled Hawaii Revised Statues, section 321-11
+L 1996, c 89, pt of §2 and am c 48, §1;
+am L 2004, c 51, §§5, 6, and 22, c 220, §2, and c 221, §8; 
+
+* Older copies of revised laws of Hawaii are scanned on google books
+
+* List of Acts for a session are the bills that passed that session. 
+There are also bills that are carryovers from one session to the next.
+
+
+* Ideas
+git blame view of current HRS with meta data:
+  - introducers
+  - link to act that caused the change
+  - who voted for / against / abstained / absent
+  - signed by gov. / veto / passed with out signature
+  - legislative history
+    - dates
+    - committee reports
+    - public testimony
+  - use in court cases
+  - use in public documents
+
+
+http://law.hawaii.libguides.com/content.php?pid=123561&sid=1061830
+
+1. Find the Act number for the statute, and the year the statute was passed.
+Go to the Hawaii Revised Statutes and find the statute that you want to research. Look at the source or history note enclosed in parentheses or brackets at the end of the statute.  Note:  if you are using Westlaw it will be at the end of the statute after Credits.
+The source note will look like this: (L1990, c164, § 2)
+L1990 = 1990, the year the statute was passed; c164 = Act 164; §2 = section 2
+A complete list of abbreviations and their meaning is found at the front of the Hawaii Revised Statutes books.
+
+Find the Bill number for the Act, according to year passed.
+Pre-1901:  Please go to the State Archives, located on the Iolani Palace grounds, at (808) 586-0329.
+1901-1962:  Determine the Bill number for the Act by looking up the Act number in the appropriate year of Session Laws of Hawaii. The Bill number will be noted at the beginning or end of the text of the Act. If no Bill number appears, look for a table of Acts at either the front or the back of the volume. (From 1935 to 1953, the Acts are listed by subject, not numerical order).  For statutory history that begins with the letters “RL”, go to the appropriate year of the Revised Laws of Hawaii.  These volumes are found in the Law Library lobby area and are labeled "Historical Codes." The laws are in numerical order according to the section number.
+1963-1983:  Go to the Digest & Index of Laws Enacted for the appropriate year. These volumes are shelved next to the Session Laws in the Law Library lobby area and have brightly colored bindings.  The Digest lists Acts numerically and includes the Bill number, a brief summary, the effective date, and committee report numbers usually found in a table at the front of the books. Write these numbers down to use in the next step.
+1984 to 1999:  Go to the Session Laws of Hawaii for the appropriate year. A table, "Committee Reports on Measures Enacted and Vetoed," lists Acts numerically and includes the Bill number and committee report numbers. The table is usually found at the back of the Session Laws.  Write these numbers down to use in the next step.
+1999 – Present: Available online at http://www.capitol.hawaii.gov/archives/main.aspx
+
+Use the Bill number to locate committee reports and history. 
+Where to find committee reports and history depends on the year of the Act you are looking for.
+Note: During a two-year legislature, a Bill that is introduced but not enacted in the first session (odd-numbered year) is carried over to the second session (even-numbered year). If committee action takes place in more than one session, then the relevant reports will be found in the journal for the year when the reports were issued out of committee.
+Pre-1901:  Please go to the State Archives, located on the Iolani Palace grounds, at (808) 586-0329.
+1901-1962:  Go to the House Journal and Senate Journal for the appropriate year. Find the sections “House Bills” and “Senate Bills” which list Bills in numerical order with page numbers for committee reports and general proceedings. Check each of the pages listed to find the committee report numbers or a reference to the Act. You should find at minimum one House and one Senate standing committee report, but often there are several.
+1963–Present:  Go to the House Journal and Senate Journal for the appropriate year to find the full-text of the committee reports. In the table of contents, find the standing committee reports and conference committee reports sections and use your report numbers from Step 2 to locate them.  Committee Reports are listed numerically and are found near the center of the Journals.  You can look at the table of contents for either Conference Committee Reports or Standing Committee Reports.  Check the headings at the top of the page to be sure you are in the right section.  Conference Committee Reports come before Standing Committee Reports.
+
+Next, look at the table of contents for the “History” section and the “House Bills” and “Senate Bills” subsections found near the back of the journals. Bills are listed in numerical order by chamber. Page numbers to the daily journal pages are listed in a table by bill number.  A bill number does not change when it goes to the other chamber.  Thus, a H.B. will still be a H.B. even in the Senate Journals. There are no page numbers to the actual committee reports.
+
+1999-Present: Available online at http://www.capitol.hawaii.gov/archives/main.aspx.
+For current legislation, click “bill status & docs.” Enter the Bill number in the search box, and check the box Show Committee Reports.
+
+
+
+
+
+
+
+
+
+
+
+                ****** Hawaii State Law Library System ******
+===============================================================================
+***** Hawaii Legislative History and Intent *****
+Legislative history is defined in Black's Law Dictionary, 8th ed. (2004) as
+"the background and events, including committee reports, hearings and floor
+debates, leading up to an enactment of an act." Such history is important in
+determining the legislative intent of a particular statute.
+===============================================================================
+Here are some very basic research steps:
+**** 1. Find the Hawai'i statutory provision you wish to research. ****
+Hawaii Revised Statutes is the state's compilation of general and permanent
+laws. The current edition includes: volume 1 (2009), volume 2 (1993), volume 3
+(2011), volume 4 (2001), volume 5 (2007), volume 6 (2010), volume 7 (1993),
+volume 8 (2004), volume 9 (2005), volume 10 (2013), volume 11 (2008), volume 12
+(2006), volumes 13-14 (1993), Index (1996), Special Pamphlet-Tables of
+Disposition (1988) and the latest annual cumulative supplement. Use the index
+to find the relevant law.
+**** 2. Identify the act and the year when the pertinent language was adopted.
+****
+The bracketed source note at the end of a statute indicates the enabling/
+amending acts and each compilation where the statute may be found.
+    * L_ _ _ _ = legislative year
+    * c = Act
+    * am = amended
+    * CC = Civil Code
+    * PC = Penal Code
+    * RL = Revised Laws of Hawaii (published 1905, 1915, 1925, 1935*, 1945, and
+      1955)
+    * HRS = Hawaii Revised Statutes, (published 1968,1976,1985,and 1993)
+*1935 may omit reference to previous compilations of a statute if no amendment
+occurred after the original enactment/last amendment and last compilation)
+**** 3. Locate the Act. ****
+Go to the Session Laws volume for the year when the act was passed. Acts are
+arranged in numerical order and will cite to a House Bill (HB) or Senate Bill
+(SB). From 1935-1953, the acts are not arranged in numerical order, check the
+table of contents for the page number of each act. Notice that an act may have
+a preamble which states purpose.
+**** 4. Track the history of the bill through enactment. ****
+After you have determined the bill no., go to both the House and Senate
+journals at the back of which are tables, at times, labeled as History of
+Bills. Check each of the pages cited alongside the bill to find action on the
+bill. Among those pages will be the text of committee report(s) or references
+to the report no(s). The text of the report may be included in the daily
+proceedings (before 1951 in the House Journal and before 1955 in the Senate
+Journal; if not, the report will be published in an appendix. Review all
+relevant reports for stated intent/purpose. At a minimum, there will be one
+House and one Senate standing committee report. The other cited pages may
+include floor remarks, and references to special reports and testimony.
+**** 5. Tips/Findings aids for locating legislative committee reports. ****
+   a. Pre-1901, refer to the State Archives on the Iolani Palace grounds. The
+      Supreme Court Law Library does not have legislative journals or committee
+      reports for those years.
+   b. 1901-1961, use the tracking method suggested in step 4 above.
+   c. 1962-1983, use the Digest and Index of Laws Enacted (title varies). Acts,
+      in summary, are published in numerical order, citing bill no., latest
+      draft no., standing committee reports of the House (HSCR) and Senate
+      (SSCR), and any conference committee reports of the House (HC) and Senate
+      (SC).
+   d. 1984 to date, check at the end of the Session Laws of Hawaii for a table
+      labeled Committee Reports on Measures Enacted.
+   e. 1999 to date, also check the Hawaii_State_Legislature website.
+          o Click on "Archives".
+          o Select a specific year and session, click on the "Submit" button.
+          o In the Legislative Session Bill and Resolution Status, Text, and
+            Committee Reports search box, enter the bill no. and check the box
+            for Show Committee Reports.
+          o Click on "Go".
+   f. Note that since 1969 Legislature, a bill which did not pass in the first
+      session(odd-numbered year) of a 2-year legislature may be carried over to
+      the second session (even-numbered year). If committee action takes place
+      in more than one session, then the relevant reports will be found in the
+      journal for the year when the reports were issued out of committee.
+   g. Consult the CARD_Online_Catalog for special reports, State Archives for
+      testimony, library staff, or How_to_research_constitutional,_legislative
+      and_statutory_history_in_Hawaii,_3d_ed., by Richard F. Kahle, Jr.,
+      Legislative Reference Bureau, 2001. [RefRm KFH421.5 L37 A25 2001].
+===============================================================================
+                         Judiciary_Home | Library_Home
+                   Send suggestions or comments via e-mail.
+
+           © Copyright 2014 Hawai&lsquo;i State Law Library System.
